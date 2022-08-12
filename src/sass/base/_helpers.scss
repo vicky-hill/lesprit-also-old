@@ -1,0 +1,36 @@
+.hard-radius {
+    border-radius: 7px !important;
+}
+
+.medium-radius { 
+    border-radius: 6px !important;
+}
+
+.soft-radius {
+    border-radius: 2rem !important;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+
+
+@media only screen and (min-width : $desktop) { 
+    .hide-mobile {
+        display: block;
+      }
+    
+    .hide-desktop {
+        display: none;
+    }
+}
